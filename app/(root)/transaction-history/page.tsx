@@ -1,7 +1,11 @@
 import React from "react";
 
-const Transaction = () => {
-	return <div>Transaction</div>;
+const TransactionHistory = () => {
+	return (
+		<div>
+			<h2>Transaction History</h2>
+		</div>
+	);
 };
 
 export default Transaction;
