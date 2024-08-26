@@ -34,7 +34,7 @@ const AuthForm = ({ type }: AuthFormProps) => {
 		resolver: zodResolver(formSchema),
 		defaultValues: {
 			email: "",
-			password: "",
+			password: "", 
 		},
 	});
 
